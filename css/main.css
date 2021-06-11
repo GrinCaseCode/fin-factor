@@ -221,7 +221,7 @@ strong {
 .billbord .title-section {
 	max-width: 620px;
 }
-.billbord .descr-title {
+.billbord .descr-title	 {
 	max-width: 588px;
 }
 .title-section {
@@ -284,6 +284,7 @@ transition: all 0.3s;
 }
 .buttons-wrap .btn-main {
 	height: 60px;
+	min-width: 240px;
 	margin-right: 24px;
 }
 .buttons-wrap .btn-main:last-child {
@@ -564,8 +565,12 @@ hr {
 .testing {
 	padding-top: 70px;
 	padding-bottom: 80px;
+	color: #fff;
 	background-image: url(../img/bg_testing.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+.testing .descr-title {
+	max-width: 727px;
 }
