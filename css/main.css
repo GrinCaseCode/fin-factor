@@ -218,6 +218,12 @@ strong {
 	background-position: center;
 	background-size: cover;
 }
+.billbord .title-section {
+	max-width: 620px;
+}
+.billbord .descr-title {
+	max-width: 588px;
+}
 .title-section {
 	font-size: 34px;
 line-height: 46px;
@@ -442,4 +448,124 @@ color: #B2C0CC;
 }
 .agree-form a {
 	color: #fff;
+}
+.tabs {
+	max-width: 370px;
+}
+.tabs a {
+	display: flex;
+	padding-left: 35px;
+	padding-right: 15px;
+	font-size: 17px;
+line-height: 30px;
+color: rgba(50, 53, 81, 0.75);
+transition: all 0.3s;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	height: 81px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	border-left: 5px solid transparent;
+	transition: all 0.3s;
+}
+.tabs a strong {
+	font-weight: 400;
+	display: block;
+}
+.tabs .active a {
+	color: #323551;
+	border-color: #345A79;
+}
+.tabs .active a strong {
+	font-weight: 700;
+}
+.tabs a:hover {
+	color: #323551;
+}
+.tabs li:last-child a {
+	margin-bottom: 0;
+}
+.structure {
+	padding-bottom: 80px;
+	background-color: #F1F1F1;
+}
+.title-middle {
+	font-size: 24px;
+line-height: 34px;
+padding-bottom: 22px;
+font-weight: 700;
+color: #013055;
+}
+.tab-container img {
+	max-width: 100%;
+	margin-top: 25px;
+}
+.tab-container li {
+	line-height: 25px;
+	padding-left: 23px;
+	position: relative;
+}
+.tab-container li::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 11px;
+	height: 11px;
+	top: 6px;
+	left: 0;
+	background-image: url(../img/ic_li.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+.tab-container  {
+	padding: 30px;
+	margin-left: -30px;
+	min-height: 100%;
+	background-color: #fff;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+}
+hr {
+	margin: 15px 0;
+	height: 1px;
+	background-color: #e5e5e5;
+	color: #e5e5e5;
+	border: none;
+}
+.tab-container p {
+	margin-bottom: 15px;
+}
+.form-phone {
+	display: flex;
+	align-items: center;
+}
+.form-phone .item-form input {
+	height: 60px;
+	border: 1px solid #D1D1D1;
+}
+.form-phone .item-form {
+	width: 250px;
+	margin: 0;
+	margin-right: -15px;
+}
+.form-phone .btn-main {
+	padding: 0 31px;
+}
+.tab-container .form-phone {
+	margin-top: 35px;
+}
+.tab-pane {
+	display: none;
+}
+.tab-pane:first-child {
+	display: block;
+}
+.testing {
+	padding-top: 70px;
+	padding-bottom: 80px;
+	background-image: url(../img/bg_testing.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
