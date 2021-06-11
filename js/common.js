@@ -1,22 +1,6 @@
 $(document).ready(function() {
 
 
-//прилипающие меню
-var $menu = $(".header");
-$(window).scroll(function(){
-  if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
-    $menu.removeClass("default").addClass("fixed");
-  } else if($(this).scrollTop() <= 0 && $menu.hasClass("fixed")) {
-    $menu.removeClass("fixed").addClass("default");
-  }
-  
-});
-
-if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
-    $menu.removeClass("default").addClass("fixed");
-  } else if($(this).scrollTop() <= 0 && $menu.hasClass("fixed")) {
-    $menu.removeClass("fixed").addClass("default");
-  }
 
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
@@ -40,13 +24,55 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	//слайдер
 
-	$('.slider').slick({
+	$('.slider-portfolio').slick({
+		arrows: false,
+		dots: false,
 		infinite: true,
+		fade: true,
 		slidesToShow: 1,
-		slidesToScroll: 1
+		asNavFor: '.slider-portfolio-nav',
+		slidesToScroll: 1,
+	});
+
+	$('.slider-portfolio-nav').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		focusOnSelect: true,
+		asNavFor: '.slider-portfolio',
+		arrows: false,
+		dots: false,
+	});
+
+	$('.slider-review').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		fade: true,
+		slidesToShow: 1,
+		asNavFor: '.slider-review-nav',
+		slidesToScroll: 1,
+	});
+
+	$('.slider-review-nav').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		focusOnSelect: true,
+		asNavFor: '.slider-review',
+		arrows: true,
+		dots: false,
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
+
+
+	$('.tabs a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
+	});
 
 
 	 // стайлер для select
