@@ -10,17 +10,28 @@ $(document).ready(function() {
 	$(".btn_nav").click(function() {
 		$(".sandwich").toggleClass("active");
 		if ($(".menu").is(":hidden")) {
-			$(".menu").slideDown(200);
+			$(".menu").fadeIn(200);
 		} else {
-			$(".menu").slideUp(200);
+			$(".menu").fadeOut(200);
 		}
 		
 	});
 
 	$(".menu a").click(function() {
-			$(".menu").slideUp(200);
+			$(".menu").fadeOut(200);
 			$(".sandwich").removeClass("active");
 		});
+
+
+	$(".btn-tab").click(function() {
+		$(this).toggleClass("active");
+		$(".tabs li:not(.active)").slideToggle(200);
+
+		$(".tabs li:not(.active) a").click(function() {
+		$(".tabs li:not(.active)").slideUp(160);
+		});
+		});
+
 
 	//слайдер
 
@@ -39,8 +50,22 @@ $(document).ready(function() {
 		slidesToScroll: 1,
 		focusOnSelect: true,
 		asNavFor: '.slider-portfolio',
-		arrows: false,
+		arrows: true,
 		dots: false,
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+			}
+		}
+		]
 	});
 
 	$('.slider-review').slick({
@@ -60,7 +85,75 @@ $(document).ready(function() {
 		asNavFor: '.slider-review',
 		arrows: true,
 		dots: false,
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+			}
+		}
+		]
 	});
+
+	 $('.row_advantages').slick({
+ 	dots: false,
+ 	arrows: false,
+ 	slidesToShow:1,
+ 	variableWidth: true,
+ 	infinite: false,
+ 	arrows: false,
+ 	slidesToScroll: 1,
+ 	mobileFirst: true,
+ 	responsive: [
+ 	{
+ 		breakpoint: 768,
+ 		settings: 'unslick'
+ 	}
+ 	]
+ });
+
+	  $('.row_solution').slick({
+ 	dots: false,
+ 	arrows: false,
+ 	slidesToShow:1,
+ 	variableWidth: true,
+ 	infinite: false,
+ 	arrows: false,
+ 	slidesToScroll: 1,
+ 	mobileFirst: true,
+ 	responsive: [
+ 	{
+ 		breakpoint: 768,
+ 		settings: 'unslick'
+ 	}
+ 	]
+ });
+
+	    $('.row_services').slick({
+ 	dots: false,
+ 	arrows: false,
+ 	slidesToShow:1,
+ 	variableWidth: true,
+ 	infinite: false,
+ 	arrows: false,
+ 	slidesToScroll: 1,
+ 	mobileFirst: true,
+ 	responsive: [
+ 	{
+ 		breakpoint: 768,
+ 		settings: 'unslick'
+ 	}
+ 	]
+ });
+
+
+
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
