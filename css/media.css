@@ -601,6 +601,9 @@ body {
 .slick-next {
 	right: 11px;
 }
+.solutions {
+	padding-bottom: 30px;
+}
 }
 
 /* Custom, iPhone Retina */
