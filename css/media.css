@@ -432,7 +432,10 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 .header .logo span {
-	display: none;
+    font-size: 10px;
+    max-width: 141px;
+    line-height: 20px;
+    margin-left: 12px;
 }
 .title-section {
     font-size: 21px;
@@ -605,7 +608,11 @@ body {
 	padding-bottom: 30px;
 }
 }
-
+@media only screen and (max-width : 345px) {
+.header .logo span {
+	display: none;
+}
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
