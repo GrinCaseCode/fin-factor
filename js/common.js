@@ -29,6 +29,7 @@ $(document).ready(function() {
 
 		$(".tabs li:not(.active) a").click(function() {
 		$(".tabs li:not(.active)").slideUp(160);
+		$(".btn-tab").removeClass("active");
 		});
 		});
 
