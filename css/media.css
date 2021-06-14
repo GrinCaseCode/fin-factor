@@ -173,7 +173,7 @@
 	position: relative;
 	top: 2px;
 }
-.phone-header i {
+.phone-header i { 
 	font-size: 22px;
 	display: inline-block;
 }
@@ -393,7 +393,7 @@
 	margin-right: -15px;
 }
 .item-advantage {
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 .item-solution {
 	text-align: left;
@@ -594,6 +594,12 @@ body {
 .row_solution .slick-slide, 
 .row_advantages .slick-slide {
 	width: 80vw;
+}
+.slick-prev {
+	left: 11px;
+}
+.slick-next {
+	right: 11px;
 }
 }
 
