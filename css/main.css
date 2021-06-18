@@ -742,7 +742,7 @@ color: #AF2422;
 }
 .item-solution {
 	margin: 0 auto; 
-	padding: 25px 25px;
+	padding: 25px 25px; 
 	padding-right: 10px;
 	min-height: 292px;
 	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
