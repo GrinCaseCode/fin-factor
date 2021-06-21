@@ -1,49 +1,45 @@
-/* font-family: "RobotoRegular"; */
 @font-face {
-	font-family: "Roboto";
-	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
-	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
-	url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-/* font-family: "RobotoLight"; */
-@font-face {
-	font-family: "Roboto";
-	src: url("../fonts/RobotoLight/RobotoLight.eot");
-	src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/RobotoLight/RobotoLight.woff") format("woff"),
-	url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
-	font-style: normal;
-	font-weight: 300;
-}
-/* font-family: "RobotoMedium"; */
-@font-face {
-	font-family: "Roboto";
-	src: url("../fonts/RobotoMedium/RobotoMedium.eot");
-	src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"),
-	url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
-	font-style: normal;
-	font-weight: 500;
-}
-/* font-family: "RobotoBold"; */
-@font-face {
-	font-family: "Roboto";
-	src: url("../fonts/RobotoBold/RobotoBold.eot");
-	src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/RobotoBold/RobotoBold.woff") format("woff"),
-	url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
-	font-style: normal;
-	font-weight: 700;
+font-family: 'TTNorms';
+src: url('../fonts/TTNorms-Light.eot');
+src: url('../fonts/TTNorms-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/TTNorms-Light.woff') format('woff'),
+url('../fonts/TTNorms-Light.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
 }
 @font-face {
-	font-family: 'FF Nort';
-	src: local('FF Nort Regular'), local('FF-Nort-Regular'),
-	url('../fonts/FFNort-Regular.woff2') format('woff2'),
-	url('../fonts/FFNort-Regular.woff') format('woff'),
-	url('../fonts/FFNort-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+font-family: 'TTNorms';
+src: url('../fonts/TTNorms-Regular.eot');
+src: url('../fonts/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/TTNorms-Regular.woff') format('woff'),
+url('../fonts/TTNorms-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'TTNorms';
+src: url('../fonts/TTNorms-Medium.eot');
+src: url('../fonts/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+url('../fonts/TTNorms-Medium.woff') format('woff'),
+url('../fonts/TTNorms-Medium.ttf') format('truetype');
+font-weight: 500;
+font-style: normal;
+}
+@font-face {
+font-family: 'TTNorms';
+src: url('../fonts/TTNorms-Bold.eot');
+src: url('../fonts/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/TTNorms-Bold.woff') format('woff'),
+url('../fonts/TTNorms-Bold.ttf') format('truetype');
+font-weight: 700;
+font-style: normal;
+}
+@font-face {
+font-family: 'Cera Pro';
+src: url('../fonts/CeraPro-Medium.eot');
+src: url('../fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+url('../fonts/CeraPro-Medium.woff') format('woff'),
+url('../fonts/CeraPro-Medium.ttf') format('truetype');
+font-weight: 500;
+font-style: normal;
 }
