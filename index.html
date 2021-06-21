@@ -18,53 +18,56 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.7" />
-	<link rel="stylesheet" href="css/media.css?ver=1.7" />
-</head>  
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
 <body>
 
 	<div class="wrapper">
 
-		<header class="header"> 
+		<header class="header">
 			<div class="container">
 				<div class="header__wrap">
-					<a href="#" class="logo"> 
-						<img src="img/logo.svg" alt="alt">
-						<span>Бухгалтерский, финансовый и управленческий аутсорсинг</span>
-					</a>
-					<div class="header__center">
-						<div class="header__contact">
-							<p><strong>Симферополь,</strong></p>
-							<p>ул. Воровского, 3А</p>
-						</div>
-						<div class="header__contact">
-							<p><strong>Наш E-mail:</strong></p>
-							<p><a href="mailto:fin-factor@yandex.ru">fin-factor@yandex.ru</a></p>
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="logo-descr">Коттеджный поселок закрытого типа</div>
+					</div>
+					<div class="location-contact">
+						<img src="img/ic_location.png" alt="alt">
+						<div>
+							<p><strong>7 км</strong> от центра Симферополя</p>
+							<a href="#" class="link-simple">Смотреть на карте</a>
 						</div>
 					</div>
-					<div class="header__right">
-						<div class="header__info">
-							<p><a href="tel:+79788106576" class="phone-header"><strong>+7 (978) 810-65-76</strong><i class="fas fa-phone"></i></a></p>
-							<a href="callback" class="link-main fancybox">Заказать звонок</a>
-						</div>
-						<span class="btn_nav">
-							<span class='sandwich'>
-								<span class='sw-topper'></span>
-								<span class='sw-bottom'></span>
-								<span class='sw-footer'></span>
-							</span>
-						</span>
+					<div class="time-contact">
+						<p>Режим работы:</p>
+						<p>Пн-Вс с 9:00-21:00</p>
+					</div>
+					<div class="phone-contact">
+						<p><a href="tel:+79785714826" class="phone-main">+7 (978) 571-48-26</a></p>
+						<a href="#callback" class="link-simple fancybox">Вам перезвонить?</a>
 					</div>
 				</div>
 			</div>
-			<div class="menu">
-				<ul>
-					<li class="active"><a href="#">О компании</a></li>
-					<li><a href="#">Наши услуги</a></li>
-					<li><a href="#">Статьи и новости</a></li>
-					<li><a href="#">Вопрос-ответ</a></li>
-					<li><a href="#">Контакты</a></li>
-				</ul>
+			<div class="header-bottom">
+				<div class="container">
+					<ul class="menu">
+						<li><a href="#">О Family Club</a></li>
+						<li><a href="#">Наши объекты</a></li>
+						<li><a href="#">Карта поселка</a></li>
+						<li><a href="#">Типы планировок</a></li>
+						<li><a href="#">Условия оплаты</a></li>
+						<li><a href="#">Акции и скидки</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+					<ul class="list-social">
+						<li><a href="#" class="list-social__whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+						<li><a href="#" class="list-social__viber"><i class="fab fa-viber"></i></a></li>
+					</ul>
+				</div>
 			</div>
 		</header>
 
@@ -72,473 +75,22 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7">
-						<div class="title-section">Разработаем бизнес-план с гарантией приема инвестором от 21 дня и 50 000 р.</div>
-						<div class="descr-title">Разработаем профессиональный бизнес-план инвестиционного проекта, который гарантировано привлечёт финансирование и даст старт стратегическому планированию бизнеса!</div>
-						<div class="buttons-wrap">
-							<a href="#" class="btn-main">Заказать бизнес-план</a>
-							<a href="#" class="btn-main btn-main_transparent">Скачать КП</a>
+						<div class="title-billbord"><strong>Дома для счастливой жизни</strong>  <span>от 122 м2</span>  с участками, в закрытом коттеджном поселке комфорт класса от 5,5 млн ₽</div>
+						<div class="info-billbord"><b>Family Club «Наследие»</b> - это <span>300 домов</span> площадью <span> от 122 до 250 м2</span>, со своей управляющей компанией и городской инфраструктурой в 20 минутах от центра Симферополя</div>
+						<div class="descr-billbord">Узнайте точную стоимость вашего дома <span>за 2 минуты</span></div>
+						<div class="buttons-billbord">
+							<a href="#" class="btn-main">Калькулятор стоимости дома</a>
+							<a href="#" class="btn-main btn-main_page">Подобрать дом</a>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-5">
-						<div class="block-form">
-							<div class="title-form">Бесплатная консультация</div>
-							<div class="descr-form">Заполните форму и наш менеджер свяжется с вами в ближайшее время</div>
-							<form>
-								<div class="item-form">
-									<input type="text" placeholder="Ваше имя" required="required">
-								</div>
-								<div class="item-form">
-									<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
-								</div>
-								<input type="submit" value="Отправить" class="btn-main">
-								<div class="agree-form">Нажимая на кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></div>
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="item-billbord">
-							<div class="item-billbord__icon">
-								<img src="img/ic_billbord1.svg" alt="alt">
-							</div>
-							<div class="item-billbord__name">Мы вернем деньги если качество нашей работы не устроит инвестора</div>
-							<p>Минимизируем риски отказа со стороны банка. По статистике, успешность проекта выше на 70%</p>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="item-billbord">
-							<div class="item-billbord__icon">
-								<img src="img/ic_billbord2.svg" alt="alt">
-							</div>
-							<div class="item-billbord__name">Сотрудничество со всеми банками Крыма и Севастополя</div>
-							<p>Меньше риск отказа от финансирования за счет сотрудничества о всеми банками Крыма и организации личной встречи</p>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="item-billbord">
-							<div class="item-billbord__icon">
-								<img src="img/ic_billbord3.svg" alt="alt">
-							</div>
-							<div class="item-billbord__name">Поддержка клиента в течение <br>6 месяцев</div>
-							<p>Поддержка по защите проекта в банке, презентации инвестору, ответам на вопросы и внесению корректировок</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="services">
-			<div class="container">
-				<div class="title-section title-section_center">Что вы получите?</div>
-				<div class="descr-section descr-section_center">Разработка бизнес-плана инвестиционного проекта является ключевым документом при создании нового бизнеса или проекта</div>
-				<div class="row row_services">
-					<div class="col-lg-6">
-						<div class="item-service">
-							<div class="item-service__image">
-								<img src="img/service1.jpg" alt="alt">
-							</div>
-							<div class="item-service__content">
-								<div class="title-small">Профессионально подготовленный нами бизнес-план</div>
-								<p>Соответствие требованиям банка и гос. органа или международным стандартам UNIDO. Минимальный размер составляет 50 страниц. А также более 20 наглядных таблиц и графиков. </p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="item-service">
-							<div class="item-service__image">
-								<img src="img/service2.jpg" alt="alt">
-							</div>
-							<div class="item-service__content">
-								<div class="title-small">Объемный прогноз, построенный по 3 измерениям:</div>
-								<p>Бюджет прибылей и убытков, бюджет движения денежных средств,  прогнозный баланс. Возможность спрогнозировать кассовые разрывы и потребность в средствах в разрезе месяцев (кварталов) проекта. Расчет точки безубыточности. Учет факторов инфляции, а также дисконтирование денежных потоков.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="item-service">
-							<div class="item-service__image">
-								<img src="img/service3.jpg" alt="alt">
-							</div>
-							<div class="item-service__content">
-								<div class="title-small">Открытую финансовую модель в формате Excel:</div>
-								<p>Открытая финансовая модель в формате Excel с возможностью моделировать различные сценарии, определить целевые показатели. Три возможных сценария развития бизнес-проекта: оптимистичный, реалистичный, пессимистичный. Наличие сквозных и открытых формул важно для банков). </p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="item-service">
-							<div class="item-service__image">
-								<img src="img/service4.jpg" alt="alt">
-							</div>
-							<div class="item-service__content">
-								<div class="title-small">Поддержку по защите бизнес-плана в течение 6 месяцев:</div>
-								<p>Помощь в общении с банком, инвестором, доработка проекта по запросу инвестора, внесение корректировок при изменении исходных условий.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="conusltation">
-			<div class="container">
-				<div class="title-section">Заполните форму и получите структуру финансового плана с наглядными таблицами абсолютно бесплатно!</div>
-				<div class="form-page">
-					<form>
-						<div class="row">
-							<div class="col-lg-4">
-								<div class="item-form">
-									<input type="text" placeholder="Ваше имя" required="required">
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<div class="item-form">
-									<input type="email" placeholder="E-mail" required="required">
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<div class="item-form">
-									<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
-								</div>
-							</div>
-						</div>
-						<div class="checkbox-wrap">
-							<div class="checkbox">
-								<label>
-									<input type="checkbox" required="required" checked="checked" />
-									<span>Я даю согласие на обработку персональных данных в соответствии с <a href="#">политикой конфиденциальности</a></span>
-								</label>
-							</div>
-						</div>
-						<input type="submit" value="Отправить" class="btn-main">
-					</form>
-				</div>
-			</div>
-		</div>
-
-		<div class="structure">
-			<div class="container">
-				<div class="title-section title-section_center">Стандартная структура бизнес-плана</div>
-				<div class="descr-section descr-section_center">Разработка бизнес-плана инвестиционного проекта является ключевым документом при создании нового бизнеса или проекта</div>
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="tabs-wrap">
-							<div class="btn-tab"><i class="far fa-chevron-down"></i></div>
-							<ul class="tabs">
-								<li class="active"><a href="#tab1"><strong>01</strong>Резюме проекта</a></li>
-								<li><a href="#tab2"><strong>02</strong>Описание проекта</a></li>
-								<li><a href="#tab3"><strong>03</strong>Описание продукта</a></li>
-								<li><a href="#tab4"><strong>04</strong>Анализ рынка</a></li>
-								<li><a href="#tab5"><strong>05</strong>Организационный план</a></li>
-								<li><a href="#tab6"><strong>06</strong>План продаж и стратегия маркетинга</a></li>
-								<li><a href="#tab7"><strong>07</strong>Производственный план</a></li>
-								<li><a href="#tab8"><strong>08</strong>Финансовый план</a></li>
-								<li><a href="#tab9"><strong>09</strong>Анализ рисков</a></li>
-								<li><a href="#tab10"><strong>10</strong>Финансовая модель</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-8">
-						<div class="tab-container">
-							<div class="tab-pane" id="tab1">
-								<div class="title-middle">Финансовая модель</div>
-								<p>В этой главе отображается подробная информация о проекте, которая позволяет понять его сущность, ключевые цели, основные задачи, стадию реализации, месторасположение.</p>
-								<div class="row">
-									<div class="col-md-6">
-										<img src="img/struct1.jpg" alt="alt">
-									</div>
-									<div class="col-md-6">
-										<img src="img/struct2.jpg" alt="alt">
-									</div>
-								</div>
-								<hr>
-								<ul>
-									<li>Исходные данные проекта (изменяемые показатели с автоматическим пересчетом модели);</li>
-									<li>План продаж и план закупок;</li>
-									<li>Инвестиции;</li>
-									<li>Кредиты и займы;</li>
-									<li>Расходы;</li>
-									<li>Калькуляция себестоимости;</li>
-									<li>Отчет о прибылях и убытках;</li>
-									<li>Отчет о движении денежных средств;</li>
-									<li>Баланс (отчет о финансовом положении);</li>
-									<li>Расчет показателей эффективности и окупаемости проекта;</li>
-									<li>Иные вспомогательные таблицы.</li>
-								</ul>
-								<a href="#" class="btn-main">Скачать пример БП</a>
-							</div>
-							<div class="tab-pane" id="tab2">
-								<div class="title-middle">Финансовая модель</div>
-								<p>В этой главе отображается подробная информация о проекте, которая позволяет понять его сущность, ключевые цели, основные задачи, стадию реализации, месторасположение.</p>
-								<div class="row">
-									<div class="col-md-6">
-										<img src="img/struct1.jpg" alt="alt">
-									</div>
-									<div class="col-md-6">
-										<img src="img/struct2.jpg" alt="alt">
-									</div>
-								</div>
-								<hr>
-								<ul>
-									<li>Исходные данные проекта (изменяемые показатели с автоматическим пересчетом модели);</li>
-									<li>План продаж и план закупок;</li>
-									<li>Инвестиции;</li>
-									<li>Кредиты и займы;</li>
-									<li>Расходы;</li>
-									<li>Калькуляция себестоимости;</li>
-									<li>Отчет о прибылях и убытках;</li>
-									<li>Отчет о движении денежных средств;</li>
-									<li>Баланс (отчет о финансовом положении);</li>
-									<li>Расчет показателей эффективности и окупаемости проекта;</li>
-									<li>Иные вспомогательные таблицы.</li>
-								</ul>
-								<a href="#" class="btn-main">Скачать пример БП</a>
-							</div>
-							<div class="tab-pane" id="tab3">
-								<div class="title-middle">Финансовая модель</div>
-								<p>В этой главе отображается подробная информация о проекте, которая позволяет понять его сущность, ключевые цели, основные задачи, стадию реализации, месторасположение.</p>
-								<div class="row">
-									<div class="col-md-6">
-										<img src="img/struct1.jpg" alt="alt">
-									</div>
-									<div class="col-md-6">
-										<img src="img/struct2.jpg" alt="alt">
-									</div>
-								</div>
-								<hr>
-								<ul>
-									<li>Исходные данные проекта (изменяемые показатели с автоматическим пересчетом модели);</li>
-									<li>План продаж и план закупок;</li>
-									<li>Инвестиции;</li>
-									<li>Кредиты и займы;</li>
-									<li>Расходы;</li>
-									<li>Калькуляция себестоимости;</li>
-									<li>Отчет о прибылях и убытках;</li>
-									<li>Отчет о движении денежных средств;</li>
-									<li>Баланс (отчет о финансовом положении);</li>
-									<li>Расчет показателей эффективности и окупаемости проекта;</li>
-									<li>Иные вспомогательные таблицы.</li>
-								</ul>
-								<a href="#" class="btn-main">Скачать пример БП</a>
-							</div>
-							<div class="tab-pane" id="tab4">
-								<div class="title-middle">Финансовая модель</div>
-								<p>В этой главе отображается подробная информация о проекте, которая позволяет понять его сущность, ключевые цели, основные задачи, стадию реализации, месторасположение.</p>
-								<div class="row">
-									<div class="col-md-6">
-										<img src="img/struct1.jpg" alt="alt">
-									</div>
-									<div class="col-md-6">
-										<img src="img/struct2.jpg" alt="alt">
-									</div>
-								</div>
-								<hr>
-								<ul>
-									<li>Исходные данные проекта (изменяемые показатели с автоматическим пересчетом модели);</li>
-									<li>План продаж и план закупок;</li>
-									<li>Инвестиции;</li>
-									<li>Кредиты и займы;</li>
-									<li>Расходы;</li>
-									<li>Калькуляция себестоимости;</li>
-									<li>Отчет о прибылях и убытках;</li>
-									<li>Отчет о движении денежных средств;</li>
-									<li>Баланс (отчет о финансовом положении);</li>
-									<li>Расчет показателей эффективности и окупаемости проекта;</li>
-									<li>Иные вспомогательные таблицы.</li>
-								</ul>
-								<a href="#" class="btn-main">Скачать пример БП</a>
-							</div>
-							<div class="tab-pane" id="tab5">
-								<div class="title-middle">Финансовая модель</div>
-								<p>В этой главе отображается подробная информация о проекте, которая позволяет понять его сущность, ключевые цели, основные задачи, стадию реализации, месторасположение.</p>
-								<div class="row">
-									<div class="col-md-6">
-										<img src="img/struct1.jpg" alt="alt">
-									</div>
-									<div class="col-md-6">
-										<img src="img/struct2.jpg" alt="alt">
-									</div>
-								</div>
-								<hr>
-								<ul>
-									<li>Исходные данные проекта (изменяемые показатели с автоматическим пересчетом модели);</li>
-									<li>План продаж и план закупок;</li>
-									<li>Инвестиции;</li>
-									<li>Кредиты и займы;</li>
-									<li>Расходы;</li>
-									<li>Калькуляция себестоимости;</li>
-									<li>Отчет о прибылях и убытках;</li>
-									<li>Отчет о движении денежных средств;</li>
-									<li>Баланс (отчет о финансовом положении);</li>
-									<li>Расчет показателей эффективности и окупаемости проекта;</li>
-									<li>Иные вспомогательные таблицы.</li>
-								</ul>
-								<a href="#" class="btn-main">Скачать пример БП</a>
-							</div>
-							<div class="tab-pane" id="tab6">
-								<div class="title-middle">Финансовая модель</div>
-								<p>В этой главе отображается подробная информация о проекте, которая позволяет понять его сущность, ключевые цели, основные задачи, стадию реализации, месторасположение.</p>
-								<div class="row">
-									<div class="col-md-6">
-										<img src="img/struct1.jpg" alt="alt">
-									</div>
-									<div class="col-md-6">
-										<img src="img/struct2.jpg" alt="alt">
-									</div>
-								</div>
-								<hr>
-								<ul>
-									<li>Исходные данные проекта (изменяемые показатели с автоматическим пересчетом модели);</li>
-									<li>План продаж и план закупок;</li>
-									<li>Инвестиции;</li>
-									<li>Кредиты и займы;</li>
-									<li>Расходы;</li>
-									<li>Калькуляция себестоимости;</li>
-									<li>Отчет о прибылях и убытках;</li>
-									<li>Отчет о движении денежных средств;</li>
-									<li>Баланс (отчет о финансовом положении);</li>
-									<li>Расчет показателей эффективности и окупаемости проекта;</li>
-									<li>Иные вспомогательные таблицы.</li>
-								</ul>
-								<a href="#" class="btn-main">Скачать пример БП</a>
-							</div>
-							<div class="tab-pane" id="tab7">
-								<div class="title-middle">Финансовая модель</div>
-								<p>В этой главе отображается подробная информация о проекте, которая позволяет понять его сущность, ключевые цели, основные задачи, стадию реализации, месторасположение.</p>
-								<div class="row">
-									<div class="col-md-6">
-										<img src="img/struct1.jpg" alt="alt">
-									</div>
-									<div class="col-md-6">
-										<img src="img/struct2.jpg" alt="alt">
-									</div>
-								</div>
-								<hr>
-								<ul>
-									<li>Исходные данные проекта (изменяемые показатели с автоматическим пересчетом модели);</li>
-									<li>План продаж и план закупок;</li>
-									<li>Инвестиции;</li>
-									<li>Кредиты и займы;</li>
-									<li>Расходы;</li>
-									<li>Калькуляция себестоимости;</li>
-									<li>Отчет о прибылях и убытках;</li>
-									<li>Отчет о движении денежных средств;</li>
-									<li>Баланс (отчет о финансовом положении);</li>
-									<li>Расчет показателей эффективности и окупаемости проекта;</li>
-									<li>Иные вспомогательные таблицы.</li>
-								</ul>
-								<a href="#" class="btn-main">Скачать пример БП</a>
-							</div>
-							<div class="tab-pane" id="tab8">
-								<div class="title-middle">Финансовая модель</div>
-								<p>В этой главе отображается подробная информация о проекте, которая позволяет понять его сущность, ключевые цели, основные задачи, стадию реализации, месторасположение.</p>
-								<div class="row">
-									<div class="col-md-6">
-										<img src="img/struct1.jpg" alt="alt">
-									</div>
-									<div class="col-md-6">
-										<img src="img/struct2.jpg" alt="alt">
-									</div>
-								</div>
-								<hr>
-								<ul>
-									<li>Исходные данные проекта (изменяемые показатели с автоматическим пересчетом модели);</li>
-									<li>План продаж и план закупок;</li>
-									<li>Инвестиции;</li>
-									<li>Кредиты и займы;</li>
-									<li>Расходы;</li>
-									<li>Калькуляция себестоимости;</li>
-									<li>Отчет о прибылях и убытках;</li>
-									<li>Отчет о движении денежных средств;</li>
-									<li>Баланс (отчет о финансовом положении);</li>
-									<li>Расчет показателей эффективности и окупаемости проекта;</li>
-									<li>Иные вспомогательные таблицы.</li>
-								</ul>
-								<a href="#" class="btn-main">Скачать пример БП</a>
-							</div>
-							<div class="tab-pane" id="tab9">
-								<div class="title-middle">Финансовая модель</div>
-								<p>В этой главе отображается подробная информация о проекте, которая позволяет понять его сущность, ключевые цели, основные задачи, стадию реализации, месторасположение.</p>
-								<div class="row">
-									<div class="col-md-6">
-										<img src="img/struct1.jpg" alt="alt">
-									</div>
-									<div class="col-md-6">
-										<img src="img/struct2.jpg" alt="alt">
-									</div>
-								</div>
-								<hr>
-								<ul>
-									<li>Исходные данные проекта (изменяемые показатели с автоматическим пересчетом модели);</li>
-									<li>План продаж и план закупок;</li>
-									<li>Инвестиции;</li>
-									<li>Кредиты и займы;</li>
-									<li>Расходы;</li>
-									<li>Калькуляция себестоимости;</li>
-									<li>Отчет о прибылях и убытках;</li>
-									<li>Отчет о движении денежных средств;</li>
-									<li>Баланс (отчет о финансовом положении);</li>
-									<li>Расчет показателей эффективности и окупаемости проекта;</li>
-									<li>Иные вспомогательные таблицы.</li>
-								</ul>
-								<a href="#" class="btn-main">Скачать пример БП</a>
-							</div>
-							<div class="tab-pane" id="tab10">
-								<div class="title-middle">Финансовая модель</div>
-								<p>В этой главе отображается подробная информация о проекте, которая позволяет понять его сущность, ключевые цели, основные задачи, стадию реализации, месторасположение.</p>
-								<div class="row">
-									<div class="col-md-6">
-										<img src="img/struct1.jpg" alt="alt">
-									</div>
-									<div class="col-md-6">
-										<img src="img/struct2.jpg" alt="alt">
-									</div>
-								</div>
-								<hr>
-								<ul>
-									<li>Исходные данные проекта (изменяемые показатели с автоматическим пересчетом модели);</li>
-									<li>План продаж и план закупок;</li>
-									<li>Инвестиции;</li>
-									<li>Кредиты и займы;</li>
-									<li>Расходы;</li>
-									<li>Калькуляция себестоимости;</li>
-									<li>Отчет о прибылях и убытках;</li>
-									<li>Отчет о движении денежных средств;</li>
-									<li>Баланс (отчет о финансовом положении);</li>
-									<li>Расчет показателей эффективности и окупаемости проекта;</li>
-									<li>Иные вспомогательные таблицы.</li>
-								</ul>
-								<a href="#" class="btn-main">Скачать пример БП</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="testing">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8">
-						<div class="title-section">Узнайте точную стоимость бизнес-проекта конкретно под ваши нужды, пройдя простой тест за 1 минуту</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-8">
-						<div class="descr-title">Стоимость услуги зависит от ваших требований, объема проекта, степени детализации и полноты исходных данных. Точная стоимость уточняется после встречи в коммерческом предложении</div>
-						<div class="buttons-wrap">
-							<a href="#" class="btn-main">Узнать стоимость</a>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="block-list">
-							<div class="block-list__line"><img src="img/line_testing.svg" alt="alt"></div>
-							<ul>
-								<li>Подберем решение под любой бюджет и размер компании</li>
-								<li>Гарантируем лучшую цену: нашли дешевле, сделаем скидку</li>
-							</ul>
-						</div>
+					<div class="col-lg-5">
+						<a href="#" class="btn-tour">
+							<span class="icon-circle">
+								<span class="icon-circle__background"></span>
+								<img src="img/ic_3d.png" alt="alt">
+							</span>
+							<span class="btn-tour__text">Смотреть 3D тур по объекту</span>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -546,479 +98,1145 @@
 
 		<div class="advantages">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-8">
-						<div class="title-section">Почему с нами выгодно работать?</div>
-						<p><strong>С Вами лично будет работать специалист с более чем 15 летним опытом работы в сфере финансовой аналитики и бизнес планирования</strong></p>
-						<div class="row row_advantages">
-							<div class="col-md-6">
-								<div class="item-advantage">
-									<div class="item-advantage__head">
-										<div class="item-advantage__number">01</div>
-										<div class="title-small">Смотрим на проект глазами банка или инвестора</div>
-									</div>
-									<p>У нас значительный опыт, как в подготовке бизнес-планов, так и принятии решений по инвестиционным проектам. Мы знаем как сделать Ваш проект максимально убедительным и интересным.</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="item-advantage">
-									<div class="item-advantage__head">
-										<div class="item-advantage__number">02</div>
-										<div class="title-small">Индивидуальный подход к каждому проекту</div>
-									</div>
-									<p>Каждый проект мы готовим индивидуально и с учетом особенностей бизнеса. С таким бизнес-планом вы можете обращаться в любой банк, государственное учреждение, фонд и к частному инвестору.</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="item-advantage">
-									<div class="item-advantage__head">
-										<div class="item-advantage__number">03</div>
-										<div class="title-small">Поддержка клиентов в течении 6 месяцев</div>
-									</div>
-									<p>После разработки проекта мы занимаемся поддержкой каждого клиента по защите проекта в банке, презентации инвестору, ответам на вопросы, внесению корректировок и дополнений в бизнес-план</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="item-advantage">
-									<div class="item-advantage__head">
-										<div class="item-advantage__number">04</div>
-										<div class="title-small">Максимальная детализация финансовой модели</div>
-									</div>
-									<p>Такая модель содержит множество переменных параметров и является эффективным инструментом не только для расчета различных сценариев бизнес-плана, но и для дальнейшего моделирования и планирования бизнеса</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="item-advantage">
-									<div class="item-advantage__head">
-										<div class="item-advantage__number">05</div>
-										<div class="title-small">Инструмент стратегического планирования</div>
-									</div>
-									<p>На базе созданной финансовой модели, в дальнейшем, в том числе с нашей поддержкой, возможно развитие эффективного инструмента для стратегического бизнес-планирования и моделирования</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="item-advantage">
-									<div class="item-advantage__head">
-										<div class="item-advantage__number">06</div>
-										<div class="title-small">Работаем до полного согласования проекта</div>
-									</div>
-									<p>После разработки проекта мы занимаемся поддержкой каждого клиента по защите проекта в банке, презентации инвестору, ответам на вопросы, внесению корректировок и дополнений в бизнес-план</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="consult">
-							<div class="row">
-								<div class="col-lg-12 col-md-6 consult__content">
-									<div class="consult-head">
-										<div class="consult-head__left">
-											<div class="consult__descr">Финансовый директор</div>
-											<div class="title-small">Сергей Крылов</div>
-										</div>
-										<div class="consult-head__image">
-											<img src="img/consult.jpg" alt="alt">
-										</div>
-									</div>
-									<ul>
-										<li>— Более 100 сданных бизнес-планов и ТЭО, привлёкших более 3 млрд</li>
-										<li>— Более 15 лет опыта работы аналитиком и риск менеджером</li>
-									</ul>
-								</div>
-								<div class="col-lg-12 col-md-6 consult__center">
-									<p>Большинство из тех, кто начинает бизнес <strong>не изучали</strong> менеджмент или финансы, не имеют <strong>управленческих навыков.</strong></p>
-									<p>Возможно, они хороши в производстве, продаже или маркетинге. Но они не могут быть хороши во всем.</p>
-								</div>
-								<div class="col-lg-12 col-md-12 consult__content">
-									<div class="title-small">Получить бесплатную консультацию финансиста</div>
-									<div class="consult__line">
-										<span>Телефон: </span>
-										<a href="tel:+79788106576"><strong> +7 978 810-65-76</strong></a>
-									</div>
-									<div class="consult__line">
-										<span>E-mail: </span>
-										<a href="mailto:fin-factor@yandex.ru"><strong>fin-factor@yandex.ru</strong></a>
-									</div>
-									<a href="#" class="btn-main">Заказать консультацию</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				
-			</div>
-		</div>
-
-		<div class="solutions">
-			<div class="container">
-				<div class="title-section title-section_center">Какие проблемы мы решаем?</div>
-				<div class="descr-section descr-section_center">С помощью бизнес-плана мы помогаем привлечь инвесторов, определиться со стратегией развития и планированием денежных средств</div>
-				<div class="row row_solution">
-					<div class="col-lg-4">
-						<div class="item-solution">
-							<div class="item-solution__icon">
-								<img src="img/ic_solution1.svg" alt="alt">
-							</div>
-							<div class="item-solution__name">Отсутствие средств для <br>нового бизнес-проекта</div>
-							<p>Поможем продать проект инвестору или кредитору за счет убедительного бизнес-плана и подробных финансовых расчетов</p>
-						</div>
-					</div>
-					<div class="col-lg-4 offset-lg-4">
-						<div class="item-solution">
-							<div class="item-solution__icon">
-								<img src="img/ic_solution3.svg" alt="alt">
-							</div>
-							<div class="item-solution__name">Презентация проекта <br>партнеру или инвестору</div>
-							<p>Подготовим все необходимые материалы, ответим на вопросы инвестора, окажем поддержку на личной встрече</p>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="item-solution">
-							<div class="item-solution__icon">
-								<img src="img/ic_solution2.svg" alt="alt">
-							</div>
-							<div class="item-solution__name">Отсутствие средств для <br>активного развития бизнеса</div>
-							<p>У нас за плечами значительный опыт не только в подготовке бизнес-планов, но и принятии решений по инвестиционным проектам</p>
-						</div>
-					</div>
-					<div class="col-lg-4 offset-lg-4">
-						<div class="item-solution">
-							<div class="item-solution__icon">
-								<img src="img/ic_solution6.svg" alt="alt">
-							</div>
-							<div class="item-solution__name">Нет понимания  реальных сроков возврата вложенных средств</div>
-							<p>Рассчитаем финансовую модель, найдем период окупаемости проекта, точку безубыточности</p>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="item-solution">
-							<div class="item-solution__icon">
-								<img src="img/ic_solution4.svg" alt="alt">
-							</div>
-							<div class="item-solution__name">Заключение соглашения с <br>гос-вом или субсидирование</div>
-							<p>Разработаем необходимую документацию и расчеты, точно в соответствие с требованиями и рекомендациями гос. органа</p>
-						</div>
-					</div>
-					<div class="col-lg-4 offset-lg-4">
-						<div class="item-solution">
-							<div class="item-solution__icon">
-								<img src="img/ic_solution5.svg" alt="alt">
-							</div>
-							<div class="item-solution__name">Нет понимания экономики и рисков проекта перед вложением средств</div>
-							<p>Поможем избежать ошибок, покажем реальную эффективность инвестиций, финансовую модель бизнеса, целевые показатели и допущения, чтобы оценить целесообразность реализации</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="portfolio">
-			<div class="container">
-				<div class="title-section">Реализованные проекты</div>
-				<div class="descr-section">Нами реализовано более 100 бизнес-планов для компаний различных масштабов и специализаций</div>
-				<ul class="slider-portfolio">
+				<ul class="slider-advantages">
 					<li>
-						<div class="row">
-							<div class="col-lg-7">
-								<div class="slider-portfolio__image">
-									<img src="img/portfolio2.jpg" alt="alt">
-									<div class="slider-portfolio__logo">
-										<img src="img/logo_portfolio1.png" alt="alt">
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-5 slider-portfolio__right">
-								<div class="title-small">Группа компаний Shells</div>
-								<p>Розничная торговля мебелью, сдача недвижимости в аренду. Крым. Сотрудничали с ноября 2020 по февраль 2021. Задача стояла наладить управленческую отчетность по направлению арендного бизнеса. Разобраться какая прибыль, как используются денежные средства.</p>
-								<p>Необходимо было настроить 3 отчета (ОПИУ, ДДС и баланс) в базе 1С УПП, используемой клиентом. Все отчеты были настроены в полном объеме, но в результате глубокого из- изучения данных, было выявлено более 40 системных ошибок, которые допускались учетной службой клиента, в результате чего, любые отчеты сильно искажались.</p>
-								<p>Поэтому, дополнительно, был подготовлен комплексный отчет по аудиту управленческого учета. Работу по исправ- лению ошибок клиент продолжил самостоятельно.</p>
+						<div class="item-advantage">
+							<div class="item-advantage__title">Близость транспортной развязки</div>
+							<p>Поселок находится в 2 км от трассы Таврида, что дает быстрый доступ ко всем городам Крыма.</p>
+							<div class="item-advantage__image">
+								<img src="img/avd1.jpg" alt="alt">
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="row">
-							<div class="col-lg-7">
-								<div class="slider-portfolio__image">
-									<img src="img/portfolio2.jpg" alt="alt">
-									<div class="slider-portfolio__logo">
-										<img src="img/logo_portfolio1.png" alt="alt">
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-5 slider-portfolio__right">
-								<div class="title-small">Группа компаний Shells</div>
-								<p>Розничная торговля мебелью, сдача недвижимости в аренду. Крым. Сотрудничали с ноября 2020 по февраль 2021. Задача стояла наладить управленческую отчетность по направлению арендного бизнеса. Разобраться какая прибыль, как используются денежные средства.</p>
-								<p>Необходимо было настроить 3 отчета (ОПИУ, ДДС и баланс) в базе 1С УПП, используемой клиентом. Все отчеты были настроены в полном объеме, но в результате глубокого из- изучения данных, было выявлено более 40 системных ошибок, которые допускались учетной службой клиента, в результате чего, любые отчеты сильно искажались.</p>
-								<p>Поэтому, дополнительно, был подготовлен комплексный отчет по аудиту управленческого учета. Работу по исправ- лению ошибок клиент продолжил самостоятельно.</p>
+						<div class="item-advantage">
+							<div class="item-advantage__title">Коммуникации</div>
+							<p>Никаких проводов, все коммуникации запроектированы  под землей. Центральное водо-, газо- снабжение, канализация и электричество.</p>
+							<div class="item-advantage__image">
+								<img src="img/avd2.jpg" alt="alt">
 							</div>
 						</div>
 					</li>
 					<li>
-						<div class="row">
-							<div class="col-lg-7">
-								<div class="slider-portfolio__image">
-									<img src="img/portfolio2.jpg" alt="alt">
-									<div class="slider-portfolio__logo">
-										<img src="img/logo_portfolio1.png" alt="alt">
-									</div>
-								</div>
+						<div class="item-advantage">
+							<div class="item-advantage__title">Контроль строительства</div>
+							<p>Независимый авторский и технический надзор строительства: все этапы контролируются независимыми организациями.</p>
+							<div class="item-advantage__image">
+								<img src="img/avd3.jpg" alt="alt">
 							</div>
-							<div class="col-lg-5 slider-portfolio__right">
-								<div class="title-small">Группа компаний Shells</div>
-								<p>Розничная торговля мебелью, сдача недвижимости в аренду. Крым. Сотрудничали с ноября 2020 по февраль 2021. Задача стояла наладить управленческую отчетность по направлению арендного бизнеса. Разобраться какая прибыль, как используются денежные средства.</p>
-								<p>Необходимо было настроить 3 отчета (ОПИУ, ДДС и баланс) в базе 1С УПП, используемой клиентом. Все отчеты были настроены в полном объеме, но в результате глубокого из- изучения данных, было выявлено более 40 системных ошибок, которые допускались учетной службой клиента, в результате чего, любые отчеты сильно искажались.</p>
-								<p>Поэтому, дополнительно, был подготовлен комплексный отчет по аудиту управленческого учета. Работу по исправ- лению ошибок клиент продолжил самостоятельно.</p>
+						</div>
+					</li>
+					<li>
+						<div class="item-advantage">
+							<div class="item-advantage__title">Единый стиль поселка</div>
+							<p>Весь поселок  выполнен в едином стиле. Есть возможность реализовать собственный авторский проект  своего дома, с приведением его в единый стиль поселка.</p>
+							<div class="item-advantage__image">
+								<img src="img/avd4.jpg" alt="alt">
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-advantage">
+							<div class="item-advantage__title">Близость транспортной развязки</div>
+							<p>Поселок находится в 2 км от трассы Таврида, что дает быстрый доступ ко всем городам Крыма.</p>
+							<div class="item-advantage__image">
+								<img src="img/avd1.jpg" alt="alt">
 							</div>
 						</div>
 					</li>
 				</ul>
-				<ul class="slider-portfolio-nav">
-					<li>
-						<div class="slider-portfolio-nav__item">
-							<div class="slider-portfolio-nav__image">
-								<img src="img/portfolio_nav1.jpg" alt="alt">
-							</div>
-							<div class="title-small">Группа компани	<strong>«Крымский султан»</strong></div>
-						</div>
-					</li>
-					<li>
-						<div class="slider-portfolio-nav__item">
-							<div class="slider-portfolio-nav__image">
-								<img src="img/portfolio_nav2.jpg" alt="alt">
-							</div>
-							<div class="title-small">Группа компаний <strong>«Обивочка»</strong></div>
-						</div>
-					</li>
-					<li>
-						<div class="slider-portfolio-nav__item">
-							<div class="slider-portfolio-nav__image">
-								<img src="img/portfolio_nav3.jpg" alt="alt">
-							</div>
-							<div class="title-small">Группа компаний <strong>«Энергокомплект Крым»</strong></div>
-						</div>
-					</li>
-				</ul>
 			</div>
-		</div>
-
-		<div class="reviews">
-			<div class="container">
-				<div class="title-section title-section_center">Отзывы о нашей работе</div>
-				<div class="descr-section descr-section_center">Мы реализовали более 100 бизнес-планов для компаний различных масштабов и специализаций</div>
-			</div>
-			<ul class="slider-review">
-				<li>
-					<div class="item-review">
-						<p>Я ни секунды не пожалел о том, что доверилась бизнес-консультанту. Помимо простой человеческой поддержки, когда ты хлюпаешь носом, и постоянно твердишь: "А откуда деньги-тооооо, их нет". Сергей говорит: "Как нет, вот же они: тут мы сделаем вот так, тут вот эдак, это закроем...</p>
-						<div class="title-middle">Виктор Емельяненко</div>
-						<div class="descr-min">Генеральный директор ООО "Крым Агро Сервис"</div>
-					</div>
-				</li>
-				<li>
-					<a href="https://www.youtube.com/embed/E8d_JvMpoY4" class="block-video fancybox fancybox.iframe">
-						<img src="img/video1.jpg" alt="alt">
-					</a>
-				</li>
-				<li>
-					<div class="item-review">
-						<p>Я ни секунды не пожалел о том, что доверилась бизнес-консультанту. Помимо простой человеческой поддержки, когда ты хлюпаешь носом, и постоянно твердишь: "А откуда деньги-тооооо, их нет". Сергей говорит: "Как нет, вот же они: тут мы сделаем вот так, тут вот эдак, это закроем...</p>
-						<div class="title-middle">Виктор Емельяненко</div>
-						<div class="descr-min">Генеральный директор ООО "Крым Агро Сервис"</div>
-					</div>
-				</li>
-				<li>
-					<a href="https://www.youtube.com/embed/E8d_JvMpoY4" class="block-video fancybox fancybox.iframe">
-						<img src="img/video1.jpg" alt="alt">
-					</a>
-				</li>
-				<li>
-					<a href="https://www.youtube.com/embed/E8d_JvMpoY4" class="block-video fancybox fancybox.iframe">
-						<img src="img/video1.jpg" alt="alt">
-					</a>
-				</li>
-				<li>
-					<div class="item-review">
-						<p>Я ни секунды не пожалел о том, что доверилась бизнес-консультанту. Помимо простой человеческой поддержки, когда ты хлюпаешь носом, и постоянно твердишь: "А откуда деньги-тооооо, их нет". Сергей говорит: "Как нет, вот же они: тут мы сделаем вот так, тут вот эдак, это закроем...</p>
-						<div class="title-middle">Виктор Емельяненко</div>
-						<div class="descr-min">Генеральный директор ООО "Крым Агро Сервис"</div>
-					</div>
-				</li>
-				<li>
-					<div class="item-review">
-						<p>Я ни секунды не пожалел о том, что доверилась бизнес-консультанту. Помимо простой человеческой поддержки, когда ты хлюпаешь носом, и постоянно твердишь: "А откуда деньги-тооооо, их нет". Сергей говорит: "Как нет, вот же они: тут мы сделаем вот так, тут вот эдак, это закроем...</p>
-						<div class="title-middle">Виктор Емельяненко</div>
-						<div class="descr-min">Генеральный директор ООО "Крым Агро Сервис"</div>
-					</div>
-				</li>
-			</ul>
-			<div class="wrap-controls wrap-controls_reviews"></div>
 		</div>
 
 		<div class="about">
 			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-7 col_about-image">
-						<div class="about__image">
-							<img src="img/men1.png" alt="alt">
-							<ul class="about-list">
-								<li>Финансист по образованию</li>
-								<li>Прошел банковскую школу — более 10 лет в корпоративном бизнесе</li>
-								<li>Поставил с нуля успешную систему финансового менеджмента в крупной региональной компании в роли финансового директора</li>
-								<li>Помог десяткам компаний малого и среднего бизнеса стать эффективнее</li>
-								<li>Развиваю два бизнеса: в сфере консалтинга и оптовой торговли</li>
-							</ul>
+				<ul class="tabs">
+					<li class="active"><a href="#tab1">Концепция поселка</a></li>
+					<li><a href="#tab2">Инфраструктура</a></li>
+					<li><a href="#tab3">Технологии строительства</a></li>
+					<li><a href="#tab4">Дизайн интерьера</a></li>
+					<li><a href="#tab5">Коммуникации</a></li>
+					<li><a href="#tab6">Ход строительства</a></li>
+				</ul>
+				<div class="tab-container">
+					<div class="tab-pane active" id="tab1">
+						<div class="row">
+							<div class="col-lg-6">
+								<p>Основная концепция <b>Family Club «Наследие»</b> - это современные архитектурные решения и максимальная гармония с природой в транспортной доступности от города. </p>
+								<p>Здания органично вписываются в окружающий ландшафт, становясь естественным дополнением пейзажа, сочетая в себе простоту, комфорт и функциональность планировки. </p>
+								<p>Инфраструктура поселка расширенная, с широкими улицами и тротуарами с двух сторон дорог. Все коммуникации запроектированы под землей. Центральное водо-, газо- снабжение, канализация и электричество.</p>
+								<p>Коттеджный поселок Family Club Акрил это идеальный вариант для комфортного проживания в пригороде.</p>
+							</div>
+							<div class="col-lg-6">
+								<ul class="slider-gallery arrows_min">
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
-					<div class="col-lg-5 about__hidden">
-						<div class="about-block">
-							<div class="title-middle">Привет, меня зовут Сергей!</div>
-							<div class="about-block__descr">Компания <strong>Fin-factor — мое детище</strong></div>
-							<p>Много лет я принимал решения о целесообразности финансирования сотен проектов, а теперь, основываясь на этом опыте, помогаю предпринимателям получить средства для реализации их идей, замыслов и новых проектов. Считаю это важной миссией, поскольку на этом этапе <strong>95%</strong> хороших замыслов остаются не реализованными.</p>
-							<a href="#" class="btn-main">Заказать консультацию</a>
+					<div class="tab-pane" id="tab2">
+						<div class="row">
+							<div class="col-lg-6">
+								<p>Основная концепция <b>Family Club «Наследие»</b> - это современные архитектурные решения и максимальная гармония с природой в транспортной доступности от города. </p>
+								<p>Здания органично вписываются в окружающий ландшафт, становясь естественным дополнением пейзажа, сочетая в себе простоту, комфорт и функциональность планировки. </p>
+								<p>Инфраструктура поселка расширенная, с широкими улицами и тротуарами с двух сторон дорог. Все коммуникации запроектированы под землей. Центральное водо-, газо- снабжение, канализация и электричество.</p>
+								<p>Коттеджный поселок Family Club Акрил это идеальный вариант для комфортного проживания в пригороде.</p>
+							</div>
+							<div class="col-lg-6">
+								<ul class="slider-gallery arrows_min">
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="tab3">
+						<div class="row">
+							<div class="col-lg-6">
+								<p>Основная концепция <b>Family Club «Наследие»</b> - это современные архитектурные решения и максимальная гармония с природой в транспортной доступности от города. </p>
+								<p>Здания органично вписываются в окружающий ландшафт, становясь естественным дополнением пейзажа, сочетая в себе простоту, комфорт и функциональность планировки. </p>
+								<p>Инфраструктура поселка расширенная, с широкими улицами и тротуарами с двух сторон дорог. Все коммуникации запроектированы под землей. Центральное водо-, газо- снабжение, канализация и электричество.</p>
+								<p>Коттеджный поселок Family Club Акрил это идеальный вариант для комфортного проживания в пригороде.</p>
+							</div>
+							<div class="col-lg-6">
+								<ul class="slider-gallery arrows_min">
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="tab4">
+						<div class="row">
+							<div class="col-lg-6">
+								<p>Основная концепция <b>Family Club «Наследие»</b> - это современные архитектурные решения и максимальная гармония с природой в транспортной доступности от города. </p>
+								<p>Здания органично вписываются в окружающий ландшафт, становясь естественным дополнением пейзажа, сочетая в себе простоту, комфорт и функциональность планировки. </p>
+								<p>Инфраструктура поселка расширенная, с широкими улицами и тротуарами с двух сторон дорог. Все коммуникации запроектированы под землей. Центральное водо-, газо- снабжение, канализация и электричество.</p>
+								<p>Коттеджный поселок Family Club Акрил это идеальный вариант для комфортного проживания в пригороде.</p>
+							</div>
+							<div class="col-lg-6">
+								<ul class="slider-gallery arrows_min">
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="tab5">
+						<div class="row">
+							<div class="col-lg-6">
+								<p>Основная концепция <b>Family Club «Наследие»</b> - это современные архитектурные решения и максимальная гармония с природой в транспортной доступности от города. </p>
+								<p>Здания органично вписываются в окружающий ландшафт, становясь естественным дополнением пейзажа, сочетая в себе простоту, комфорт и функциональность планировки. </p>
+								<p>Инфраструктура поселка расширенная, с широкими улицами и тротуарами с двух сторон дорог. Все коммуникации запроектированы под землей. Центральное водо-, газо- снабжение, канализация и электричество.</p>
+								<p>Коттеджный поселок Family Club Акрил это идеальный вариант для комфортного проживания в пригороде.</p>
+							</div>
+							<div class="col-lg-6">
+								<ul class="slider-gallery arrows_min">
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="tab6">
+						<div class="row">
+							<div class="col-lg-6">
+								<p>Основная концепция <b>Family Club «Наследие»</b> - это современные архитектурные решения и максимальная гармония с природой в транспортной доступности от города. </p>
+								<p>Здания органично вписываются в окружающий ландшафт, становясь естественным дополнением пейзажа, сочетая в себе простоту, комфорт и функциональность планировки. </p>
+								<p>Инфраструктура поселка расширенная, с широкими улицами и тротуарами с двух сторон дорог. Все коммуникации запроектированы под землей. Центральное водо-, газо- снабжение, канализация и электричество.</p>
+								<p>Коттеджный поселок Family Club Акрил это идеальный вариант для комфортного проживания в пригороде.</p>
+							</div>
+							<div class="col-lg-6">
+								<ul class="slider-gallery arrows_min">
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-gallery__item">
+											<img src="img/about1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="steps">
+		<div class="layout">
 			<div class="container">
-				<div class="title-section title-section_center">6 простых шагов от звонка до готовой бизнес-модели</div>
-				<div class="descr-section descr-section_center">Мы разработаем профессиональный проект, который поможет вам в привлечении инвестиций и планировании бизнеса</div>
-				<div class="stepsline">
-					<div class="item-step active">
-						<div class="item-step__circle"></div>
-						<div class="item-step__content"><strong>01</strong>Встреча</div>
-					</div>
-					<div class="item-step active">
-						<div class="item-step__circle"></div>
-						<div class="item-step__content"><strong>02</strong>Изучаем проект</div>
-					</div>
-					<div class="item-step active active_last">
-						<div class="item-step__circle"></div>
-						<div class="item-step__content"><strong>03</strong>Договор</div>
-					</div>
-					<div class="item-step">
-						<div class="item-step__circle"></div>
-						<div class="item-step__content"><strong>04</strong>Проект</div>
-					</div>
-					<div class="item-step">
-						<div class="item-step__circle"></div>
-						<div class="item-step__content"><strong>05</strong>Согласование</div>
-					</div>
-					<div class="item-step">
-						<div class="item-step__circle"></div>
-						<div class="item-step__content"><strong>06</strong>Презентация</div>
-					</div>
-					<div class="stepsline__progressbar"></div>
-				</div>
-				<div class="steps-block">
-					<div class="row">
-						<div class="col-lg-9 steps-block__left">
-							<div class="title-middle"><span>Шаг 3.</span> Подписание договора</div>
-							<p>На третем этапе ждем от Вас подписанный договор, оплату, полностью заполненный и подписанный Бриф, необходимые документы. После оплаты, даже если Вы еще работаете над сбором документов и заполенением Брифа, мы уже начинаем подготовительную работу по проекту.</p>
-							<form>
+				<div class="title-section">Планировки домов</div>
+				<ul class="layout-nav">
+					<li><div class="layout-nav__item">Коттедж, 122 м<sup>2</sup></div></li>
+					<li><div class="layout-nav__item">Коттедж, 136 м<sup>2</sup></div></li>
+					<li><div class="layout-nav__item">Коттедж, 150 м<sup>2</sup></div></li>
+					<li><div class="layout-nav__item">Коттедж, 176 м<sup>2</sup></div></li>
+					<li><div class="layout-nav__item">Таунхаус, 200 м<sup>2</sup></div></li>
+					<li><div class="layout-nav__item">Модульный, 143 м<sup>2</sup></div></li>
+				</ul>
+				<ul class="layout-for arrows_min">
+					<li>
+						<div class="row">
+							<div class="col-lg-6">
+								<ul class="slider-for arrows_min">
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+								<ul class="slider-nav">
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6 right-layout">
+								<div class="title-block">Коттедж, 122 м<sup>2</sup></div>
+								<div class="line-feature">
+									<strong>Площадь участка:</strong>
+									<span>250 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Этажи:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество спальных комнат:</strong>
+									<span>3</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество сан. узлов:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь гостинной:</strong>
+									<span>50 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь главной спальни:</strong>
+									<span>20 м<sup>2</sup></span>
+								</div>
+								<div class="layout-descr">Коттедж со своим участком и местом для парковки двух автомобилей. Предусмотрена просторная кухня с панорамным видом на задний двор. Ограждение по периметру участка каменным забором.</div>
+								<div class="title-min">Дополнительные услуги:</div>
 								<div class="row">
 									<div class="col-md-4">
-										<div class="item-form">
-											<input type="text" placeholder="Ваше имя" required="required">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add1.png" alt="alt">
+											</div>
+											<p>Умный дом</p>
 										</div>
 									</div>
 									<div class="col-md-4">
-										<div class="item-form">
-											<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add2.png" alt="alt">
+											</div>
+											<p>Бассейн</p>
 										</div>
 									</div>
 									<div class="col-md-4">
-										<input type="submit" value="Отпрвить заявку" class="btn-main">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add3.png" alt="alt">
+											</div>
+											<p>Навесы</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add4.png" alt="alt">
+											</div>
+											<p>Чистовая отделка</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add5.png" alt="alt">
+											</div>
+											<p>Зона барбекю</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add6.png" alt="alt">
+											</div>
+											<p>Ещё</p>
+										</div>
 									</div>
 								</div>
-							</form>
-						</div>
-						<div class="col-lg-3 steps-block__right">
-							<div class="steps-block__image">
-								<img src="img/img_step.jpg" alt="alt">
+								<div class="big-price">6 000 000 ₽</div>
+								<div class="buttons-layout">
+									<a href="#" class="btn-main">Получить консультацию эксперта</a>
+									<a href="#" class="btn-main btn-main_page">Подробнее</a>
+								</div>
 							</div>
-							<div class="steps-block__name">Сергей Крылов</div>
-							<div class="steps-block__descr">Финансовый Директор</div>
-							<div class="steps-block__contact"><a href="tel:+79784574734">+7 (978) 457-47-34</a></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-lg-6">
+								<ul class="slider-for arrows_min">
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+								<ul class="slider-nav">
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6 right-layout">
+								<div class="title-block">Коттедж, 136 м<sup>2</sup></div>
+								<div class="line-feature">
+									<strong>Площадь участка:</strong>
+									<span>250 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Этажи:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество спальных комнат:</strong>
+									<span>3</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество сан. узлов:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь гостинной:</strong>
+									<span>50 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь главной спальни:</strong>
+									<span>20 м<sup>2</sup></span>
+								</div>
+								<div class="layout-descr">Коттедж со своим участком и местом для парковки двух автомобилей. Предусмотрена просторная кухня с панорамным видом на задний двор. Ограждение по периметру участка каменным забором.</div>
+								<div class="title-min">Дополнительные услуги:</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add1.png" alt="alt">
+											</div>
+											<p>Умный дом</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add2.png" alt="alt">
+											</div>
+											<p>Бассейн</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add3.png" alt="alt">
+											</div>
+											<p>Навесы</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add4.png" alt="alt">
+											</div>
+											<p>Чистовая отделка</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add5.png" alt="alt">
+											</div>
+											<p>Зона барбекю</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add6.png" alt="alt">
+											</div>
+											<p>Ещё</p>
+										</div>
+									</div>
+								</div>
+								<div class="big-price">6 000 000 ₽</div>
+								<div class="buttons-layout">
+									<a href="#" class="btn-main">Получить консультацию эксперта</a>
+									<a href="#" class="btn-main btn-main_page">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-lg-6">
+								<ul class="slider-for arrows_min">
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+								<ul class="slider-nav">
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6 right-layout">
+								<div class="title-block">Коттедж, 150 м<sup>2</sup></div>
+								<div class="line-feature">
+									<strong>Площадь участка:</strong>
+									<span>250 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Этажи:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество спальных комнат:</strong>
+									<span>3</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество сан. узлов:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь гостинной:</strong>
+									<span>50 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь главной спальни:</strong>
+									<span>20 м<sup>2</sup></span>
+								</div>
+								<div class="layout-descr">Коттедж со своим участком и местом для парковки двух автомобилей. Предусмотрена просторная кухня с панорамным видом на задний двор. Ограждение по периметру участка каменным забором.</div>
+								<div class="title-min">Дополнительные услуги:</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add1.png" alt="alt">
+											</div>
+											<p>Умный дом</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add2.png" alt="alt">
+											</div>
+											<p>Бассейн</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add3.png" alt="alt">
+											</div>
+											<p>Навесы</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add4.png" alt="alt">
+											</div>
+											<p>Чистовая отделка</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add5.png" alt="alt">
+											</div>
+											<p>Зона барбекю</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add6.png" alt="alt">
+											</div>
+											<p>Ещё</p>
+										</div>
+									</div>
+								</div>
+								<div class="big-price">6 000 000 ₽</div>
+								<div class="buttons-layout">
+									<a href="#" class="btn-main">Получить консультацию эксперта</a>
+									<a href="#" class="btn-main btn-main_page">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-lg-6">
+								<ul class="slider-for arrows_min">
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+								<ul class="slider-nav">
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6 right-layout">
+								<div class="title-block">Коттедж, 176 м<sup>2</sup></div>
+								<div class="line-feature">
+									<strong>Площадь участка:</strong>
+									<span>250 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Этажи:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество спальных комнат:</strong>
+									<span>3</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество сан. узлов:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь гостинной:</strong>
+									<span>50 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь главной спальни:</strong>
+									<span>20 м<sup>2</sup></span>
+								</div>
+								<div class="layout-descr">Коттедж со своим участком и местом для парковки двух автомобилей. Предусмотрена просторная кухня с панорамным видом на задний двор. Ограждение по периметру участка каменным забором.</div>
+								<div class="title-min">Дополнительные услуги:</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add1.png" alt="alt">
+											</div>
+											<p>Умный дом</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add2.png" alt="alt">
+											</div>
+											<p>Бассейн</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add3.png" alt="alt">
+											</div>
+											<p>Навесы</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add4.png" alt="alt">
+											</div>
+											<p>Чистовая отделка</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add5.png" alt="alt">
+											</div>
+											<p>Зона барбекю</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add6.png" alt="alt">
+											</div>
+											<p>Ещё</p>
+										</div>
+									</div>
+								</div>
+								<div class="big-price">6 000 000 ₽</div>
+								<div class="buttons-layout">
+									<a href="#" class="btn-main">Получить консультацию эксперта</a>
+									<a href="#" class="btn-main btn-main_page">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-lg-6">
+								<ul class="slider-for arrows_min">
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+								<ul class="slider-nav">
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6 right-layout">
+								<div class="title-block">Таунхаус, 200 м<sup>2</sup></div>
+								<div class="line-feature">
+									<strong>Площадь участка:</strong>
+									<span>250 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Этажи:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество спальных комнат:</strong>
+									<span>3</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество сан. узлов:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь гостинной:</strong>
+									<span>50 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь главной спальни:</strong>
+									<span>20 м<sup>2</sup></span>
+								</div>
+								<div class="layout-descr">Коттедж со своим участком и местом для парковки двух автомобилей. Предусмотрена просторная кухня с панорамным видом на задний двор. Ограждение по периметру участка каменным забором.</div>
+								<div class="title-min">Дополнительные услуги:</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add1.png" alt="alt">
+											</div>
+											<p>Умный дом</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add2.png" alt="alt">
+											</div>
+											<p>Бассейн</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add3.png" alt="alt">
+											</div>
+											<p>Навесы</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add4.png" alt="alt">
+											</div>
+											<p>Чистовая отделка</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add5.png" alt="alt">
+											</div>
+											<p>Зона барбекю</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add6.png" alt="alt">
+											</div>
+											<p>Ещё</p>
+										</div>
+									</div>
+								</div>
+								<div class="big-price">6 000 000 ₽</div>
+								<div class="buttons-layout">
+									<a href="#" class="btn-main">Получить консультацию эксперта</a>
+									<a href="#" class="btn-main btn-main_page">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="col-lg-6">
+								<ul class="slider-for arrows_min">
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-for__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+								<ul class="slider-nav">
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for3.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for1.jpg" alt="alt">
+										</div>
+									</li>
+									<li>
+										<div class="slider-nav__item">
+											<img src="img/slide_for2.jpg" alt="alt">
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-6 right-layout">
+								<div class="title-block">Модульный, 143 м<sup>2</sup></div>
+								<div class="line-feature">
+									<strong>Площадь участка:</strong>
+									<span>250 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Этажи:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество спальных комнат:</strong>
+									<span>3</span>
+								</div>
+								<div class="line-feature">
+									<strong>Количество сан. узлов:</strong>
+									<span>1</span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь гостинной:</strong>
+									<span>50 м<sup>2</sup></span>
+								</div>
+								<div class="line-feature">
+									<strong>Площадь главной спальни:</strong>
+									<span>20 м<sup>2</sup></span>
+								</div>
+								<div class="layout-descr">Коттедж со своим участком и местом для парковки двух автомобилей. Предусмотрена просторная кухня с панорамным видом на задний двор. Ограждение по периметру участка каменным забором.</div>
+								<div class="title-min">Дополнительные услуги:</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add1.png" alt="alt">
+											</div>
+											<p>Умный дом</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add2.png" alt="alt">
+											</div>
+											<p>Бассейн</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add3.png" alt="alt">
+											</div>
+											<p>Навесы</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add4.png" alt="alt">
+											</div>
+											<p>Чистовая отделка</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add5.png" alt="alt">
+											</div>
+											<p>Зона барбекю</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="item-add">
+											<div class="item-add__icon">
+												<img src="img/ic_add6.png" alt="alt">
+											</div>
+											<p>Ещё</p>
+										</div>
+									</div>
+								</div>
+								<div class="big-price">6 000 000 ₽</div>
+								<div class="buttons-layout">
+									<a href="#" class="btn-main">Получить консультацию эксперта</a>
+									<a href="#" class="btn-main btn-main_page">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="interactive">
+			<div class="container">
+				<div class="title-section">Интерактивная карта поселка</div>
+				<div class="interactive-map">
+					<div class="interactive-map__head">
+						<p>Для получения подробной информации о доме наведите курсор мыши на нужный участок.</p>
+					</div>
+					<div class="interactive-map__image">
+						<img src="img/map.jpg" alt="alt">
+					</div>
+					<div class="item-interactive item-interactive_1">
+						<div class="item-interactive__number">1</div>
+						<div class="item-interactive__content">
+							<div class="item-interactive__wrap">
+								<div class="item-interactive__image">
+									<img src="img/interactive1.jpg" alt="allt">
+								</div>
+								<div class="item-interactive__info">
+									<div class="item-interactive__name">Коттедж, 122 м<sup>2</sup></div>
+									<p><strong>Площадь участка: </strong> 250 м<sup>2</sup></p>
+									<p><strong>Площадь дома: </strong> 122 м<sup>2</sup></p>
+									<p><strong>Жилая: </strong> 90 м<sup>2</sup></p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<footer class="footer">
+		<div class="presentation">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4">
-						<a href="#" class="logo">
-							<img src="img/logo2.svg" alt="alt">
-							<span>Бухгалтерский, финансовый и управленческий аутсорсинг</span>
-						</a>
-						<ul class="list-social">
-							<li><a href="#"><img src="img/vk.svg" alt="alt"></a></li>
-							<li><a href="#"><img src="img/inst.svg" alt="alt"></a></li>
-						</ul>
-					</div>
-					<div class="col-lg-3">
-						<div class="footer__title footer__title_menu">Наши услуги <i class="far fa-plus"></i></div>
-						<div class="footer__content">
-							<ul class="footer__nav">
-								<li><a href="#">Подготовка бизнес-планов, ТЭО</a></li>
-								<li><a href="#">Финансовый директор на аутсорсинге</a></li>
-								<li><a href="#">Финансовая служба под ключ</a></li>
-								<li><a href="#">Постановка управленческого учёта</a></li>
-								<li><a href="#">Построение финансовой модели бизнеса</a></li>
-								<li><a href="#">Ведение комплексного учёта на аутсорсинге</a></li>
-								<li><a href="#">Постановка бюджетирования, планирования и казначейского контроля</a></li>
-								<li><a href="#">Подготовка ТЭО для кредита застройщику</a></li>
-								<li><a href="#">Финансовый аудит</a></li>
-								<li><a href="#">Правовое сопровождение бизнеса</a></li>
+					<div class="col-lg-6">
+						<div class="title-big">Скачайте презентацию коттеджного поселка «Family Club»</div>
+						<div class="name-block">В презентации Вас ждет: </div>
+						<div class="block-page">
+							<ul>
+								<li>Актуальные цены</li>
+								<li>Перечень дополнительных услуг </li>
+								<li>Как выгодно купить</li>
+								<li>Подробная инфраструктура поселка</li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-3">
-						<ul>
-							<li><a href="#" class="footer__title">О компании</a></li>
-							<li><a href="#" class="footer__title">Статьи и новости</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-2 col_pr">
-						<div class="footer__title footer__title_menu">Контакты <i class="far fa-plus"></i></div>
-						<div class="footer__content">
-							<p><strong>Адрес:</strong></p>
-							<p>АР Крым, Симферополь</p>
-							<p>ул. Воровского, 3А</p>
-							<br>
-							<p><strong>Телефон:</strong></p>
-							<p><a href="tel:+79788106576">+7 978 810-65-76</a></p>
-							<br>
-							<p><strong>E-mail:</strong></p>
-							<p><a href="mailto:fin-factor@yandex.ru">fin-factor@yandex.ru</a></p>
-						</div>
-					</div>
 				</div>
 			</div>
-			<div class="footer-bottom">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-md-4">
-							<a href="#">Политика конфиденциальности</a>
-						</div>
-						<div class="col-md-4 align-center">
-							<p>Simferopol © Copyright 2021</p>
-						</div>
-						<div class="col-md-4">
-							<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+		</div>
 		
-	</div> 
+	</div>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -1029,11 +1247,11 @@
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
 <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-<script src="libs/slick-1.5.9/slick/slick.min.js?ver=1.7"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.7"></script>
+<script src="js/common.js"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
