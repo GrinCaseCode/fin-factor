@@ -892,6 +892,9 @@ body {
     .tabs li {
        display: block !important;
    }
+   .footer__title i {
+    display: none;
+   }
 }
 
 /* Large Devices, Wide Screens */
